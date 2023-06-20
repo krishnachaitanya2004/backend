@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+.welcome-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 14px;
+  color: red;
+}
